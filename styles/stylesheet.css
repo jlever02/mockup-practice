@@ -1,0 +1,111 @@
+/********** Global styles **********/*
+{
+  box-sizing: border-box;  
+  font-family: sans-serif;
+}
+html, body {
+  height:100%;
+}
+p {
+  color:black;
+}
+
+/********** headline and main nav (Header) styles **********/
+header {
+  
+}
+header h1 {
+  text-align:center;
+  color:#8468B3;
+  font-size:2rem;
+  padding:2rem 0 .5rem 0;
+}
+header nav {
+  width:100%;
+  background-color:#8468B3;
+  height:2.5rem;
+}
+header nav ul {
+  width:100%;
+}
+header nav ul li:last-child{
+   color: red;
+}
+header nav ul li {
+  float:left;
+  width:14%;
+  text-align:center;
+  border-right: 2px solid #6B4F9A;
+}
+header nav ul li a {
+  line-height:2.5rem;
+  text-decoration:none;
+  color:white;
+}
+
+/********** main area with photo and text (Main) styles **********/
+article {
+  float:right;
+  width:80%; 
+  height:70%;
+  background-color:#E1E4E9;
+}
+article img {
+  display:block;
+  width:40%;
+  margin: 3rem auto 1.5rem auto;
+}
+article p {
+  min-width:40%;
+  max-width: 60%;
+  margin:0 auto;
+  text-align:center;
+}
+
+/********** left bar with list of photos  (aside) styles **********/
+aside {
+  clear:left;
+  float:left;
+  width:20%; 
+  height:70%;
+  background-color:#C0B2D5;
+  padding:4rem 0 6rem 0;
+}
+aside ul {
+  width:60%;
+  margin:0px auto;
+}
+aside ul li {
+  padding:.5em;
+}
+aside ul li a {
+  color:#FFF;
+  text-decoration:none;
+}
+
+/********** footer with social media links (footer) styles **********/
+footer {
+  clear:both;
+  height:15%;
+}
+footer ul {
+  width:60%;
+  margin:0px auto;
+  background-color:#000;
+}
+footer ul li {
+  width:25%;
+  height:5%;
+  padding:.75em;
+  float:left;
+  display:block;
+}
+footer ul li img {
+  height:5%;
+  display:block;
+  margin:auto;
+}
+footer ul li a {
+  color:#FFF;
+  text-decoration:none;
+}
