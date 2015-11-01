@@ -87,6 +87,7 @@ aside {
 aside ul {
   width:60%;
   margin:0px auto;
+  font-size:.7rem;
 }
 aside ul li {
   padding:.5em;
