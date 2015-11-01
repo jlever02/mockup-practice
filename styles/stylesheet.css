@@ -28,14 +28,15 @@ header nav {
 header nav ul {
   width:100%;
 }
-header nav ul li:last-child{
-   color: red;
-}
+
 header nav ul li {
   float:left;
-  width:14%;
+  width:14.2%;
   text-align:center;
   border-right: 2px solid #6B4F9A;
+}
+header nav ul li:last-child {
+   border-right: none;
 }
 header nav ul li a {
   line-height:2.5rem;
@@ -52,14 +53,16 @@ article {
 }
 article img {
   display:block;
-  width:40%;
+  
+  max-height:60%;
+  min-height: 10%;
   margin: 3rem auto 1.5rem auto;
 }
 article p {
-  min-width:40%;
-  max-width: 60%;
+  max-width: 80%;
   margin:0 auto;
   text-align:center;
+  font-size:.8rem;
 }
 
 /********** left bar with list of photos  (aside) styles **********/
@@ -96,12 +99,13 @@ footer ul {
 footer ul li {
   width:25%;
   height:5%;
-  padding:.75em;
+  margin:.75em;
   float:left;
   display:block;
 }
 footer ul li img {
-  height:5%;
+  max-height:5%;
+  min-height:2%;
   display:block;
   margin:auto;
 }
