@@ -43,6 +43,7 @@ header nav ul li:last-child {
 header nav ul li a {
   text-decoration:none;
   color:white;
+  padding:.4rem 3.5rem; 
 }
 header nav ul li a:hover {
   text-decoration:underline;
@@ -50,7 +51,7 @@ header nav ul li a:hover {
 }
 header nav ul li a:active {
   text-decoration:underline;
-  color: #6B4F9A;
+  color: #6B4F9A; 
 }
 
  
