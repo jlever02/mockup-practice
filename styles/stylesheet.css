@@ -126,3 +126,12 @@ footer ul li a {
   color:#FFF;
   text-decoration:none;
 }
+
+.offscreen {
+position:absolute;
+  left:-100rem;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
