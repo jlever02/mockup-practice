@@ -25,6 +25,7 @@ header nav {
   background-color:#8468B3;
   height:2rem;
 }
+
 header nav ul {
   width:100%;
 }
@@ -43,7 +44,6 @@ header nav ul li:last-child {
 header nav ul li a {
   text-decoration:none;
   color:white;
-  padding:.4rem 3.5rem; 
 }
 header nav ul li a:hover {
   text-decoration:underline;
@@ -84,6 +84,13 @@ aside {
   height:70%;
   background-color:#C0B2D5;
   padding:4rem 0 6rem 0;
+}
+aside h2 {
+  font-size:1rem;
+  color:#ffffff;
+  text-align:center;
+  text-decoration:underline;
+  padding-bottom:.3rem;
 }
 aside ul {
   width:60%;
